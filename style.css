@@ -77,13 +77,19 @@ nav .logo {
 nav .responsive-menu-button {
 	position: absolute;
 	right: 0;
-	display: none
+	display: none;
 }
 
 /* Header ends */
 
 /* Responsive Menu Starts */
 
+@media (max-width: 900px) {
+nav .responsive-menu-button 
+    {
+        display: inline-block;
+    }
+}
 #responsive_menu {
     width: 300px;
     height: 100vh;
