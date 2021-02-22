@@ -89,6 +89,19 @@ nav .responsive-menu-button
     {
         display: inline-block;
     }
+    nav .wrapper a {
+        display: none;
+    }
+}
+
+/* @media (max-width: 900px) {
+    .wrapper {
+        display: none;
+    }
+} */
+
+.responsive-menu-opened #responsive_menu {
+    right: 0;
 }
 #responsive_menu {
     width: 300px;
