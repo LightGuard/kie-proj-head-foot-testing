@@ -16,6 +16,17 @@ body {
     line-height:1.6;
 }
 
+#overlay {
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.5);
+    z-index:2;
+    pointer-events:none;
+    opacity:0;
+    transition:opacity .1s;
+    }
+
 /* Wrapper starts */
 
 nav .wrapper, nav footer .row, footer nav .row {
@@ -124,6 +135,7 @@ nav .responsive-menu-button {
     list-style:none;
     margin:0;
     padding:0;
+    color: #475058;
 }
 
 #responsive_menu ul ul {
@@ -151,6 +163,7 @@ nav .responsive-menu-button {
     border-bottom:1px solid #d1d7dc;
     padding-bottom:15px;
     margin:20px 0 7px;
+    text-transform: uppercase;
 }
 
 .responsive-menu-opened {
@@ -287,7 +300,7 @@ footer .row .column {
     padding:0;
 }
 
-footer .row .column a,footer .row .column span {
+footer .row .column a, footer .row .column span {
     color:#DDD;
     display:inline-block;
     vertical-align:middle;
