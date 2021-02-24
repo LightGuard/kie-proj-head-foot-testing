@@ -1,32 +1,35 @@
+(function () {
+  var responsiveMenuClass = "responsive-menu-opened";
 
-  (function() {
+  function closeResponsiveMenu() {
+    document.body.classList.remove(responsiveMenuClass);
+  }
 
-    var responsiveMenuClass = "responsive-menu-opened";
+  function toggleResponsiveMenu() {
+    document.body.classList.toggle(responsiveMenuClass);
+  }
 
-    function closeResponsiveMenu() {
-      document.body.classList.remove(responsiveMenuClass);
-    }
-
-    function toggleResponsiveMenu() {
-      document.body.classList.toggle(responsiveMenuClass);
-    }
-
-    $(".responsive-menu-button").click(function(e) {
+  document
+    .querySelector(".responsive-menu-button")
+    .addEventListener("click", function (e) {
       toggleResponsiveMenu();
       e.preventDefault();
       return false;
     });
 
-    $(document).keyup(function(e) {
-      if (e.keyCode === 27) {
-        closeResponsiveMenu()
-      }
-    });
+  document.addEventListener("keyup", function (e) {
+    if (e.key === 27) {
+      closeResponsiveMenu();
+    }
+  });
 
-    $(document).click(closeResponsiveMenu);
+  document
+    .querySelector(".close-button")
+    .addEventListener("click", closeResponsiveMenu);
 
-    // Do not hide sidebar when click event happens inside of responsive menu.
-    $('#responsive_menu').click(function(event) {
-      event.stopPropagation();
+  document
+    .querySelector("#responsive_menu")
+    .addEventListener("click", function (e) {
+      e.stopPropagation();
     });
-  }())
+})();
