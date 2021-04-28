@@ -369,6 +369,73 @@ nav .responsive-menu-button {
 
 /* Responsive menu ends */
 
+/* Categories bar */
+
+.categories-bar {
+  background:#eee;
+  border-bottom:1px solid #ababab;
+  border-top:1px solid #d4d4d4;
+  }
+  
+  .categories-bar .categories-bar__menu {
+  max-width:127rem;
+  height:100%;
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 auto;
+  }
+  
+  .categories-bar .categories-bar__item {
+  line-height:38px;
+  color:#475058;
+  margin:0 2rem 0 0;
+  }
+  
+  .categories-bar .categories-bar__item--current {
+  font-weight:700;
+  text-decoration:underline;
+  }
+  
+  .categories-bar--responsive {
+  display:none;
+  border-bottom:1px solid #ccc;
+  margin:0 0 10px;
+  padding:0 0 10px;
+  }
+  
+  .categories-bar--responsive .categories-bar__item {
+  display:block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width:100%;
+  line-height:1.6rem;
+  font-size:1.5rem;
+  font-weight:600;
+  font-family:overpass,sans-serif;
+  padding:.3rem 0;
+  }
+
+  /* body .categories-bar--responsive {
+    display:block;
+    }
+    
+    nav .responsive-menu-button {
+    display:inline-block;
+    }
+    
+    body .categories-bar,nav a {
+    display:none;
+    }
+    }
+    
+    @mediamax-width1515px{
+    body .categories-bar .categories-bar__menu {
+    margin:0 0 0 118px;
+    } */
+
+/* Categories bar ends */
+
 /* Footer starts */
 
 .container,
