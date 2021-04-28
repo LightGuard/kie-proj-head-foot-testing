@@ -18,7 +18,13 @@
     <header class="header">
         <nav>
           <div class="wrapper">
-            <div class="logo"></div>
+            <div class="logo">
+              <style>
+                nav .logo {
+                  background-image: url(./icons/kogito_icon_rgb_color_default_1024px.png);
+                }
+              </style>   
+            </div>
             <h1>Kogito</h1>
             <!-- <img src="images/kogito.png" alt="kogito" style="max-width: 180px;"> -->
             
@@ -32,8 +38,7 @@
             <a href="#" class="responsive-menu-button">☰</a>
           </div>
         </nav>
-      </header>
-   
+      </header> 
  
 
     <p>
@@ -57,6 +62,26 @@
         Flexibility to customize, only use what you need
         Simplified local development with live reload
     </p>
+
+    <footer>
+      <div class="row">
+        <div class="column">
+          <span>Development is sponsored by</span>
+          <a class="logo" href="https://www.redhat.com/"></a>
+        </div>
+        <div class="column">
+          <a href="http://www.redhat.com/legal/legal_statement.html">Terms of use</a> -
+          <a href="http://www.redhat.com/legal/privacy_statement.html">Terms and Conditions</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <span>
+            © Copyright 2006 - 2020, Red Hat, Inc. or third-party contributors
+          </span>
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>
