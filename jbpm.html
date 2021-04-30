@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">  
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
         <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="drop-down.css">
         <link rel="stylesheet" 
           href="https://fonts.googleapis.com/css?family=PTSerif%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7COverpass%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext"
           type="text/css" media="all">
@@ -33,14 +34,14 @@
                 Learn
             </a>
             <!-- Dropdown for learn -->
-            <!-- <ul class="dropdown-menu">
+            <ul class="dropdown-menu">
                     <li><a href="learn/gettingStarted.html">Getting started</a></li>
                     <li><a href="learn/releases.html">Releases</a></li>
                     <li><a href="learn/documentation.html">Documentation</a></li>
                     <li><a href="learn/jbpmPerformance.html">Performance</a></li>
                     <li><a href="learn/video.html">Videos</a></li>
                     <li><a href="learn/slides.html">Slides</a></li>
-                    </ul> -->
+                    </ul>
                 <!-- Dropdown for learn -->
             <a href="#">Business Applications</a>
                 <!-- Dropdown for Business Applications -->
@@ -67,7 +68,30 @@
           </div>
         </nav>
       </header>
-   
+  <!-- Responsive menu -->
+
+  <div id="responsive_menu">
+    <ul>
+      <li>
+        <a href="#" class="responsive-menu-button close-button">✕</a>
+        <h4>
+          jBPM
+        </h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Business Applications</a></li>
+          <li><a href="#">Get Help</a></li>
+          <li><a href="#">Source</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">KIE</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Responsive menu --> 
 
     <p>
         What is jBPM? <br>
@@ -107,6 +131,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="responsive.js"></script>
 
 </body>
 </html>
