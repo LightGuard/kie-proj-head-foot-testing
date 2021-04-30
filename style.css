@@ -414,8 +414,8 @@ nav .responsive-menu-button {
   font-family:overpass,sans-serif;
   padding:.3rem 0;
   }
-
-   /* @media (max-width: 900px){
+/* 
+   @media (max-width: 900px){
  body .categories-bar {
     display: none;
 } */
