@@ -1,0 +1,11 @@
+nav .logo {
+  background-image: url(../icons/drools_icon_256px.png);
+}
+@media (max-width: 1150px){
+    nav a {
+        display: none;
+      }
+      nav .responsive-menu-button {
+        display: inline-block;
+      }
+   }

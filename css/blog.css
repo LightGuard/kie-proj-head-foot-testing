@@ -1,0 +1,10 @@
+nav .logo {
+  background-image: url(../images/kie_logo.png);
+}
+
+@media (max-width: 900px) {
+  body .categories-bar {
+    display: none;
+  }
+}
+

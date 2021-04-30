@@ -1,0 +1,12 @@
+nav .logo {
+  background-image: url(../icons/jbpm_icon_rgb_red_256px.png);
+}
+
+@media (max-width: 1230px){
+    nav a {
+        display: none;
+      }
+      nav .responsive-menu-button {
+        display: inline-block;
+      }
+   }

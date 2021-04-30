@@ -1,0 +1,12 @@
+nav .logo {
+  background-image: url(../icons/kogito_icon_rgb_color_default_1024px.png);
+}
+
+@media (max-width: 1100px){
+    nav a {
+        display: none;
+      }
+      nav .responsive-menu-button {
+        display: inline-block;
+      }
+   }

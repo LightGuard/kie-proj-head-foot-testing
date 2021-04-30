@@ -1,0 +1,12 @@
+nav .logo {
+  background-image: url(../icons/Optaplanner_icon_256px.png);
+}
+
+@media (max-width: 1095px){
+    nav a {
+        display: none;
+      }
+      nav .responsive-menu-button {
+        display: inline-block;
+      }
+   }
