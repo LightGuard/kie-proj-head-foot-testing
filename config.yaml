@@ -1,0 +1,6 @@
+---
+baseURL: http://example.org/
+languageCode: en-us
+title: KIE Community
+MetaDataFormat: yaml
+theme: kie
