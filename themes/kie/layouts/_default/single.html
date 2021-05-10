@@ -1,4 +1,6 @@
-{{ define "main" }} {{ .Content }}
-<!-- End post content -->
-<!-- Space for comments -->
+{{ define "main" }}
+<pfe-band color="lightest">
+    <h2 slot="pfe-band--header">Header Slot</h2>
+    {{ .Content }}
+</pfe-band>
 {{ end }}

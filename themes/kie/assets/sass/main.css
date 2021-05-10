@@ -98,7 +98,7 @@ nav .logo {
     border-radius: 100%;
     border-bottom: 2px solid #ddd;
     margin: 5px 30px 0 0;
-    background-image: url("../images/kie_logo.png");
+    background-image: url("../../static/images/kie_logo.png");
     vertical-align: top;
     display: inline-block;
 }
@@ -406,7 +406,7 @@ footer .row:nth-child(2) span {
 }
 
 footer .row .column a.logo {
-    background: url(../images/redHatLogo.png) no-repeat;
+    background: url(../../static/images/redHatLogo.png) no-repeat;
     background-size: 144px 34px;
     height: 34px;
     top: auto;
