@@ -1,5 +1,0 @@
-[.header-class#main-title]
-== There should be something here
-
-[.some-class#some-id]
-=== Now there's content!

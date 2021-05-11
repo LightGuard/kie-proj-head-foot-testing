@@ -302,7 +302,6 @@ nav .responsive-menu-button {
 /* Categories bar ends */
 
 .container.main {
-    height: calc(100vh - 350px);
     padding: 2rem;
     max-width: 150rem;
     margin: 1rem auto;

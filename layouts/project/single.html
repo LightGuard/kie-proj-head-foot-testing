@@ -1,0 +1,10 @@
+{{ define "main" }} {{ range $index, $val := $.Param "bands" }} {{ if modBool $index 2 }}
+<pfe-band color="lightest">
+    {{ else }}
+    <pfe-band color="dark">
+        {{ end }}
+        <h2 slot="pfe-band--header">{{ $val.header }}</h2>
+        {{ $val.content }} {{ if $val.image }}
+        <img slot="pfe-band--aside" src="{{ $val.image }}" alt=""> {{ end }}
+    </pfe-band>
+    {{ end }} {{ end }}
