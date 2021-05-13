@@ -1,20 +1,6 @@
-<#include "header.ftl">
-	
-	<#include "menu.ftl">
+<#import "base.ftl" as base>
 
-	<div class="page-header">
-		<h1>Blog</h1>
-	</div>
-	<#list posts as post>
-  		<#if (post.status == "published")>
-  			<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
-  			<p>${post.date?string("dd MMMM yyyy")}</p>
-  			<p>${post.body}</p>
-  		</#if>
-  	</#list>
-	
-	<hr />
-	
-	<p>Older posts are available in the <a href="${content.rootpath}${config.archive_file}">archive</a>.</p>
+<@base.layout>
+  <h1>Some sort of content is supposed to go here. Why is index special?</h1>
+</@base.layout>
 
-<#include "footer.ftl">

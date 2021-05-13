@@ -1,19 +1,17 @@
-		</div>
-		<div id="push"></div>
+<footer>
+    <div class="row">
+        <div class="column">
+            <span>Development is sponsored by</span>
+            <a class="logo" href="https://www.redhat.com/"></a>
+        </div>
+        <div class="column">
+            <a href="http://www.redhat.com/legal/legal_statement.html">Terms of use</a> -
+            <a href="http://www.redhat.com/legal/privacy_statement.html">Terms and Conditions</a>
+        </div>
     </div>
-    
-    <div id="footer">
-      <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
-      </div>
+    <div class="row">
+        <div class="column">
+            <span>© Copyright 2006 - {{ now.Year }}, Red Hat, Inc. or third-party contributors</span>
+        </div>
     </div>
-    
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery-1.11.1.min.js"></script>
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/bootstrap.min.js"></script>
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/prettify.js"></script>
-    
-  </body>
-</html>
+</footer>

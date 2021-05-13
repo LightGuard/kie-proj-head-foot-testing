@@ -1,34 +1,32 @@
-	<!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>">JBake</a>
+<header class="header">
+    <nav>
+        <div class="wrapper">
+            <div class="logo" aria-label="logo"></div>
+            <h1><a href="/">KIE</a></h1>
+            <a href="https://blog.kie.org">Blog</a>
+            <a href="/project/kogito">Kogito</a>
+            <a href="/project/drools">Drools</a>
+            <a href="/project/jbpm">JBPM</a>
+            <a href="/project/optaplanner">Optaplanner</a>
+            <a href="#" class="responsive-menu-button">☰</a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    <div class="container">
+    </nav>
+</header>
+
+<div id="responsive_menu">
+    <ul>
+        <li>
+            <a href="#" class="responsive-menu-button close-button">✕</a>
+            <h4>
+                KIE websites
+            </h4>
+            <ul>
+                <li><a href="https://blog.kie.org">Blog</a></li>
+                <li><a href="/kogito">Kogito</a></li>
+                <li><a href="/drools">Drools</a></li>
+                <li><a href="/jbpm">JBPM</a></li>
+                <li><a href="/optaplanner">Optaplanner</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

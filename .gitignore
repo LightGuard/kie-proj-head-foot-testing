@@ -8,6 +8,7 @@ hugo_stats.json
 
 ### jbake ###
 output
+static
 
 # Executable may be added to repository
 hugo.exe
