@@ -11,7 +11,7 @@
     </div>
     <div class="row">
         <div class="column">
-            <span>© Copyright 2006 - {{ now.Year }}, Red Hat, Inc. or third-party contributors</span>
+            <span>© Copyright 2006 - ${ .now?string.yyyy }, Red Hat, Inc. or third-party contributors</span>
         </div>
     </div>
 </footer>
