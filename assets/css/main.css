@@ -98,7 +98,7 @@ nav .logo {
     border-radius: 100%;
     border-bottom: 2px solid #ddd;
     margin: 5px 30px 0 0;
-    background-image: url("../images/kie_logo.png");
+    background-image: url("../../static/images/kie_logo.png");
     vertical-align: top;
     display: inline-block;
 }
@@ -109,13 +109,43 @@ nav .responsive-menu-button {
     display: none;
 }
 
+.navigation--secondary {
+    max-width: 100%;
+    margin: -1.2rem 0 0;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding-left: 35rem;
+}
+
+.navigation--secondary a {
+    text-decoration: none;
+    padding: 0 2rem;
+    font-weight: unset;
+    color: unset;
+    text-transform: unset;
+    line-height: unset;
+    height: unset;
+    display: inline;
+}
+
+.navigation--secondary a:hover {
+    height: unset;
+    background-color: unset;
+}
+
+.navigation-item--active {
+    text-decoration: underline;
+}
+
 
 /* NAV Ends */
 
 
 /* Responsive Menu Starts */
 
-#responsive_menu {
+.navigation--responsive {
     width: 300px;
     height: 100vh;
     background: rgba(255, 255, 255, 0.9);
@@ -130,45 +160,47 @@ nav .responsive-menu-button {
     padding: 10px 20px 0;
 }
 
-#responsive_menu .close-button {
+.navigation--responsive .close-button {
     display: block;
-    width: 100%;
     text-align: right;
+    right: 0;
+    position: relative;
+    text-decoration: none;
 }
 
-#responsive_menu .close-button+h4 {
+.navigation--responsive .close-button+h4 {
     margin-top: 10px;
     outline: none;
 }
 
-#responsive_menu ul {
+.navigation--responsive ul {
     list-style: none;
     margin: 0;
     padding: 0;
     color: #475058;
 }
 
-#responsive_menu ul ul {
+.navigation--responsive ul ul {
     padding-left: 2.5rem;
 }
 
-#responsive_menu ul li {
+.navigation--responsive ul li {
     margin: 0;
     padding: 5px 0;
 }
 
-#responsive_menu h4,
-#responsive_menu li a {
+.navigation--responsive h4,
+.navigation--responsive li a {
     color: #475058;
     font-family: "Overpass", sans-serif;
 }
 
-#responsive_menu li a {
+.navigation--responsive li a {
     font-size: 16px;
     font-weight: 700;
 }
 
-#responsive_menu h4 {
+.navigation--responsive h4 {
     font-size: 1.8rem;
     font-weight: 800;
     border-bottom: 1px solid #d1d7dc;
@@ -182,7 +214,8 @@ nav .responsive-menu-button {
 }
 
 .responsive-menu-opened nav,
-.responsive-menu-opened main {
+.responsive-menu-opened .footer,
+.responsive-menu-opened .main {
     filter: blur(1px);
 }
 
@@ -190,7 +223,7 @@ nav .responsive-menu-button {
     opacity: 1;
 }
 
-.responsive-menu-opened #responsive_menu {
+.responsive-menu-opened .navigation--responsive {
     right: 0;
 }
 
@@ -199,6 +232,9 @@ nav .responsive-menu-button {
 
 @media (max-width: 900px) {
     nav a {
+        display: none;
+    }
+    .navigation--secondary * {
         display: none;
     }
     nav .responsive-menu-button {
@@ -273,7 +309,7 @@ nav .responsive-menu-button {
 }
 
 
-/* 
+/*
    @media (max-width: 900px){
  body .categories-bar {
     display: none;
@@ -283,16 +319,16 @@ nav .responsive-menu-button {
 /* body .categories-bar--responsive {
     display:block;
     }
-    
+
     nav .responsive-menu-button {
     display:inline-block;
     }
-    
+
     body .categories-bar,nav a {
     display:none;
     }
     }
-    
+
     @mediamax-width1515px{
     body .categories-bar .categories-bar__menu {
     margin:0 0 0 118px;
@@ -405,7 +441,7 @@ footer .row:nth-child(2) span {
 }
 
 footer .row .column a.logo {
-    background: url(../images/redHatLogo.png) no-repeat;
+    background: url(../../static/images/redHatLogo.png) no-repeat;
     background-size: 144px 34px;
     height: 34px;
     top: auto;
@@ -416,5 +452,5 @@ footer .row .column a.logo {
 .row .column iframe {
     padding-left: 20px !important;
     padding-right: 20px !important;
-} 
+}
 /* Footer ends */

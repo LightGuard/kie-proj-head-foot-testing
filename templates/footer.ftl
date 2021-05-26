@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
     <div class="row">
         <div class="column">
             <span>Development is sponsored by</span>
