@@ -96,7 +96,7 @@ nav .logo {
     box-shadow: 0 0 0 10px #f8f8f8;
     border-radius: 100%;
     border-bottom: 2px solid #ddd;
-    /* background-image: url("../../static/images/kie_logo.png"); */
+    background-image: url("../../static/images/kie_logo.png");
     vertical-align: top;
     display: inline-block;
 }
