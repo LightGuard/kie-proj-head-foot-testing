@@ -8,7 +8,9 @@
     "scripts": {
         "start": "run-p start:*",
         "start:webpack": "webpack --mode=development --watch",
+        "start:jbake": "jbake -b -s",
         "build": "run-s build:webpack",
+        "build:jbake": "jbake -b",
         "build:webpack": "webpack --mode=production"
     },
     "devDependencies": {
