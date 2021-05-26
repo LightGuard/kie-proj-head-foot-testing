@@ -1,7 +1,7 @@
 <header class="header">
     <nav>
-        <div class="logo" aria-label="logo"></div>
-        <div class="navigation wrapper">
+        <div class="navigation--primary">
+            <div class="logo" aria-label="logo"></div>
             <h1><a href="/">KIE</a></h1>
             <a href="https://blog.kie.org" <#if ((content.active_menu!"") == "blog")>class="navigation-item--active"</#if>>Blog</a>
             <a href="/project/kogito" <#if ((content.active_menu!"") == "kogito")>class="navigation-item--active"</#if>>Kogito</a>
