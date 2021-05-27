@@ -27,7 +27,6 @@
         "webpack-cli": "^3.3.11"
     },
     "dependencies": {
-        "@patternfly/pfe-accordion": "^1.6.0",
         "@patternfly/pfe-band": "^1.6.0",
         "@patternfly/pfe-card": "^1.6.0",
         "@patternfly/pfe-cta": "^1.6.0",
