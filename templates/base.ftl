@@ -4,7 +4,7 @@
   <#include "head.ftl" >
   <body>
     <#include "menu.ftl" >
-    <div id="content" class="main container">
+    <div class="container container--main">
       <#nested>
     </div>
     <#include "footer.ftl" >

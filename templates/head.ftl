@@ -21,9 +21,9 @@
     -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PTSerif%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7COverpass%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
     <link rel="stylesheet" href="/assets/main.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PTSerif%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7COverpass%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
     <#-- <title>${ config.title + " - " + content.title }</title> -->
     <title>${ config.title }</title>
     <link rel="icon" href="/images/favicon.ico">

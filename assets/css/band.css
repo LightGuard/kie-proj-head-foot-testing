@@ -1,0 +1,6 @@
+.container--band {
+    display: flex;
+    margin: 0 auto;
+    grid-column: 1/end;
+    flex-wrap: wrap;
+}

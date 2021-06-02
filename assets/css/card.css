@@ -1,0 +1,30 @@
+.card {
+    display: grid;
+    grid-area: main;
+    grid-auto-rows: minmax(5rem, auto);
+    grid-template-areas: "head" "body" "foot";
+}
+
+.card--project {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    grid-auto-rows: 50% 50%;
+    grid-template-areas: "head" "body";
+    padding: 5rem;
+}
+
+.card .card-header {
+    grid-area: head;
+    margin: 0 auto;
+}
+
+.card .card-body {
+    grid-area: body;
+}
+
+.card .card-footer {
+    grid-area: foot;
+}
+
