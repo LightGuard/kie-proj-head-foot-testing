@@ -4,3 +4,9 @@
     grid-column: 1/end;
     flex-wrap: wrap;
 }
+
+.container--band-2-col {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+}

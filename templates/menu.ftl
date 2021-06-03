@@ -1,5 +1,5 @@
 <header class="header">
-    <nav>
+    <nav class="navigation">
         <div class="navigation--primary">
             <div class="logo" aria-label="logo"></div>
             <h1><a href="/">KIE</a></h1>

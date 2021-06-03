@@ -1,5 +1,5 @@
 (function() {
-    var responsiveMenuClass = "responsive-menu-opened";
+    let responsiveMenuClass = "responsive-menu-opened";
 
     function closeResponsiveMenu() {
         document.body.classList.remove(responsiveMenuClass);
