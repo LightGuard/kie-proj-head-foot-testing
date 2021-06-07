@@ -1,7 +1,6 @@
-@import "layout.css";
-@import "card.css";
-@import "video-playlist.css";
-@import "navigation.css";
+:root {
+    --secondary-color: #adadad;
+}
 
 *,
 :after,
@@ -36,6 +35,10 @@ body {
     transition: opacity 0.1s;
 }
 
+.small {
+    font-size: 85%;
+}
+
 /* responsive view */
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -64,22 +67,7 @@ body {
 }
 
 /* tablets (portrait and landscape) ----------- */
-@media only screen and (max-device-width: 1023px) {
-    nav {
-        box-shadow: unset;
-    }
-
-    nav a {
-        display: none;
-    }
-
-    .navigation--secondary {
-        display: none;
-    }
-
-    nav .responsive-menu-button {
-        display: inline-block;
-    }
+@media only screen and (max-width: 1023px) {
 }
 
 /* Tablets and potentially laptops */
@@ -152,3 +140,9 @@ footer .row .column a.logo {
 }
 
 /* Footer ends */
+
+@import "layout.css";
+@import "card.css";
+@import "video-playlist.css";
+@import "navigation.css";
+@import "quote.css";

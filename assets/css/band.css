@@ -6,7 +6,11 @@
 }
 
 .container--band-2-col {
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    grid-gap: 2rem;
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+}
+
+.container--band-about-intro {
+    max-width: 75%;
+    text-align: center;
 }

@@ -6,7 +6,7 @@ footer nav .row {
 /* Wrapper ends */ /* NAV Starts */
 header {
     background-color: #f8f8f8;
-    box-shadow: 0 1px 5px 5px #adadad;
+    box-shadow: 0 1px 5px 5px var(--secondary-color);
 }
 
 .navigation {
@@ -68,7 +68,7 @@ header {
 
 .navigation--secondary {
     background-color: lightgray;
-    border-top: 3px solid #adadad;
+    border-top: 3px solid var(--secondary-color);
     align-items: center;
     grid-column: 1/4;
     text-align: center;
