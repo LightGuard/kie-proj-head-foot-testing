@@ -14,3 +14,9 @@
     max-width: 75%;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .container--main {
+        grid-template-columns: unset !important;
+    }
+}
