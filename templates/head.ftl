@@ -27,5 +27,6 @@
     <#-- <title>${ config.title + " - " + content.title }</title> -->
     <title>${ config.title }</title>
     <link rel="icon" href="/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/3fefb2be58.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/assets/bundle.js" defer></script>
 </head>
