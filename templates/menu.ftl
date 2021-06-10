@@ -2,7 +2,7 @@
     <nav class="navigation">
         <div class="navigation--primary">
             <div class="logo" aria-label="logo"></div>
-            <h1><a href="/">KIE</a></h1>
+            <h1><a href="/" <#if ((content.active_menu!"kie") == "kie")>class="navigation-item--active"</#if>>KIE</a></h1>
             <a href="https://blog.kie.org" <#if ((content.active_menu!"") == "blog")>class="navigation-item--active"</#if>>Blog</a>
             <a href="/project/kogito" <#if ((content.active_menu!"") == "kogito")>class="navigation-item--active"</#if>>Kogito</a>
             <a href="/project/drools" <#if ((content.active_menu!"") == "drools")>class="navigation-item--active"</#if>>Drools</a>
@@ -12,10 +12,6 @@
         </div>
         <div class="navigation--secondary">
             <#include (((content.active_menu)!"kie") + "-submenu.ftl")>
-            <#--
-            ${content.sourceuri!'/'}
-            Active menu: ${content.active_menu!""}
-            -->
             <#-- Secondary nav depending on what is being viewed will go here -->
         </div>
     </nav>
