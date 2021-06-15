@@ -15,8 +15,24 @@
     text-align: center;
 }
 
+.container--band-team {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, auto));
+    grid-gap: 1rem;
+}
+
 @media screen and (max-width: 1024px) {
     .container--main {
         grid-template-columns: unset !important;
+    }
+
+    .container--band-team {
+        grid-template-columns: repeat(4, minmax(0, auto));
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container--band-team {
+        grid-template-columns: repeat(3, minmax(0, auto));
     }
 }
